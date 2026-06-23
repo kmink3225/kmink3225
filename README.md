@@ -41,6 +41,7 @@ I architect and build **enterprise AI platforms** end-to-end — RAG, LLM agents
 ### 🔎 Go deeper
 
 - 🌐 **Portfolio site** — about, CV, and selected projects: **https://kmink3225.github.io**
+- 🧠 **Flagship case study** — enterprise multi-agent RAG platform: architecture diagram + a self-built-orchestration vs. general-purpose-CLI benchmark: **https://kmink3225.github.io/projects/1_ai_platform/**
 - 📚 **Technical blog** — 1,900+ articles on ML, statistics, causal inference, RAG/agents, optimization, and finance: **https://kk3225.netlify.app**
 
 ---
