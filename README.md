@@ -4,7 +4,7 @@
 
 I architect and build **enterprise AI platforms** end-to-end — RAG, LLM agents, and NLP — and I back them with **statistically rigorous evaluation**. My background is biostatistics (Columbia) applied to diagnostics, so I care as much about *measuring* a system as building it.
 
-- **AI/LLM Engineer** — multi-agent RAG platforms (Self-RAG / CRAG / Graph RAG), self-built orchestration harnesses, and LLM-as-judge evaluation pipelines. I build systems that are *grounded and measured*, not demos.
+- **AI/LLM Engineer** — technical lead / architect on a company-wide multi-agent RAG platform (Self-RAG / CRAG / Graph RAG), self-built orchestration harnesses, and LLM-as-judge evaluation pipelines. I build systems that are *grounded and measured*, not demos.
 - **Data Scientist** — experiment design, causal inference, survival analysis, and deep learning / NLP, with 1,900+ in-depth technical articles documenting the theory behind the practice.
 
 ---
@@ -20,11 +20,12 @@ I architect and build **enterprise AI platforms** end-to-end — RAG, LLM agents
 | Impact | Metric |
 |---|---|
 | Enterprise knowledge QnA chatbot (9 sub-agent Self-RAG/CRAG) | ~98% user satisfaction · 4.66s avg response · 96.9% citation rate |
-| Self-built agent orchestration vs. general-purpose CLI | up to **~17× lower cost per query** (benchmarked, paired t-test / McNemar / bootstrap CI) |
-| NLP-based data standardization system | validation time **8h → 0.73s (99%↓)** · metadata consistency 8.4% → 98.7% |
-| Domain classifier (8-model benchmark, 14 classes) | KLUE-RoBERTa 96.88%; proved a 671K-param BiLSTM statistically on par with a 110M model |
+| Self-built agent orchestration vs. general-purpose CLI (7-variant benchmark, ~400K-line codebase grounded into a code graph) | composite **0.977** (1st) at up to **~17× lower cost per query** — paired t-test / McNemar / bootstrap CI |
+| NLP-based data standardization system | validation time **8h → 0.73s (99%↓)** · metadata consistency 8.4% → 98.7% · completeness → 100% |
+| Domain classifier (8-model benchmark, 14 classes) | KLUE-RoBERTa 96.88%; a 671K-param BiLSTM proved on par with a 110M model at **1.48ms** inference |
+| FDA-submission statistical V&V automation | validation **6 months → 3 weeks (87.5%↓)** at 99.2% confidence |
 | PCR signal baseline correction (data-driven redesign) | false-negative rate **0.47% → 0.04% (91.49%↓)** |
-| Diagnostic-equipment QC automation (LSTM) | QC time **~93%↓**, ~13× annual operating-cost reduction |
+| Diagnostic-equipment QC automation (LSTM, 61,248 signals) | QC time **~93%↓**, ~13× annual operating-cost reduction |
 
 *7 patents filed (first inventor on 4) · President's Award (R&D), Seegene · Chair's Award, Columbia Biostatistics*
 
@@ -34,6 +35,7 @@ I architect and build **enterprise AI platforms** end-to-end — RAG, LLM agents
 
 - **M.S. Biostatistics**, Columbia University — Chair's Award
 - **B.A. Mathematics**, Baruch College (CUNY)
+- **B.S. Biochemistry**, Kangwon National University — Valedictorian
 - Alzheimer's multi-omics biomarker research, Columbia / Taub Institute
 
 ---
