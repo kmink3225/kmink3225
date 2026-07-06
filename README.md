@@ -20,7 +20,7 @@ I architect and build **enterprise AI platforms** end-to-end — RAG, LLM agents
 | Impact | Metric |
 |---|---|
 | Enterprise knowledge QnA chatbot (9 sub-agent Self-RAG/CRAG) | ~98% user satisfaction · 4.66s avg response · 96.9% citation rate |
-| Self-built agent orchestration vs. general-purpose CLI (7-variant benchmark, ~400K-line codebase grounded into a code graph) | composite **0.977** (1st) at up to **~17× lower cost per query** — paired t-test / McNemar / bootstrap CI |
+| Self-built agent orchestration vs. Claude Code, raw and with a metadata/skill harness (3 architectures, 11 variants, ~400K-line codebase grounded into a code graph) | composite **0.977** (1st of 11) at up to **~17× lower cost per query** — paired t-test / McNemar / bootstrap CI |
 | NLP-based data standardization system | validation time **8h → 0.73s (99%↓)** · metadata consistency 8.4% → 98.7% · completeness → 100% |
 | Domain classifier (8-model benchmark, 14 classes) | KLUE-RoBERTa 96.88%; a 671K-param BiLSTM proved on par with a 110M model at **1.48ms** inference |
 | FDA-submission statistical V&V automation | validation **6 months → 3 weeks (87.5%↓)** at 99.2% confidence |
